@@ -13,7 +13,7 @@ const Services = () => {
     }, [])
 
     return (
-        <section  style={{'margin-top': '50px'}}>
+        <section className="container-fluid" style={{'margin-top': '50px'}}>
             <h3 className="text-center">Provide awesome <span style={{color: '#7AB259'}}>services</span></h3>
             
             <div className="row">

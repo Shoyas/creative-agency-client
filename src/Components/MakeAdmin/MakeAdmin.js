@@ -21,7 +21,7 @@ const MakeAdmin = () => {
     }
 
     return (
-        <section className="makeAdmin-content">
+        <section className="makeAdmin-content container-fluid">
             <div className="row">
                 <div className="col-md-2">
                     <Sidebar></Sidebar>

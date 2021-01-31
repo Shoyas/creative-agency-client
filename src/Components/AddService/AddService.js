@@ -40,7 +40,7 @@ const AddService = () => {
     }
 
     return (
-        <section className="addService-content">
+        <section className="addService-content container-fluid">
             <div className="row">
                 <div className="col-md-2">
                     <Sidebar></Sidebar>

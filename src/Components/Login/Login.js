@@ -2,6 +2,8 @@ import React from 'react';
 import './Login.css';
 import logo from '../images/logos/logo.png';
 import { Link, useHistory, useLocation } from "react-router-dom";
+
+
 import * as firebase from "firebase/app";
 import "firebase/auth";
 import firebaseConfig from './firebase.config';

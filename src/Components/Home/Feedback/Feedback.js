@@ -11,7 +11,7 @@ const Feedback = () => {
     }, [])
     
     return (
-        <section  style={{'margin-top': '50px'}}>
+        <section className="container-fluid" style={{'margin-top': '50px'}}>
             <h3 className="text-center">Clients <span style={{color: '#7AB259'}}>Feedback</span></h3>
             <div className="row">
                 {

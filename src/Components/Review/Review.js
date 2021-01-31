@@ -22,7 +22,7 @@ const Review = () => {
     }
 
     return (
-        <section className="review-content">
+        <section className="review-content container-fluid">
             <div className="row">
                 <div className="col-md-2">
                     <Sidebar></Sidebar>

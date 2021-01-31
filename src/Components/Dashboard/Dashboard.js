@@ -8,12 +8,12 @@ const Dashboard = () => {
 
 
     return (
-        <section className="dashboard-content">
+        <section className="dashboard-content container-fluid">
             <div className="row">
                 <div className="col-md-2">
                     <Sidebar></Sidebar>
                 </div>
-                <div  className="col-md-10">
+                <div  className="col-md-10 container-fluid">
                     <span className="d-flex">
                         <h3 style={{'margin-left':'80px', 'margin-top':'50px','color': '#DC3545'}}>Dashboard</h3>
                     </span>
