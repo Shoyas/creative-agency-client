@@ -9,7 +9,7 @@ const Review = () => {
 
     const onSubmit = info => {
         info.reviewDate = new Date();
-        fetch('http://localhost:5000/addClientReview', {
+        fetch('https://intense-badlands-48385.herokuapp.com/addClientReview', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(info)
@@ -36,7 +36,7 @@ const Review = () => {
                     <div className="order-form">
                         <form onSubmit={handleSubmit(onSubmit)}>
                             <div class="form-group">
-                                <input type="text" ref={register({ required: true })} name="name" className="form-control form-element" placeholder="Your name"/>{errors.name && <span className="text-danger">This field is required</span>}
+                                <input type="text" defaultValue={loggedInUser.name} ref={register({ required: true })} name="name" className="form-control form-element" placeholder="Your name"/>{errors.name && <span className="text-danger">This field is required</span>}
                                 <br/>
                                 <input type="text" ref={register({ required: true })} name="companyName" className="form-control form-element" placeholder="Company's name, designation"/>{errors.companyName && <span className="text-danger">This field is required</span>}
                                 <br/>

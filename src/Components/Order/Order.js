@@ -12,7 +12,7 @@ const Order = () => {
     const {register, handleSubmit, errors} = useForm();
     const onSubmit = data => {
         data.ordererDate = new Date();
-        fetch('http://localhost:5000/addClientOrder', {
+        fetch('https://intense-badlands-48385.herokuapp.com/addClientOrder', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(data)

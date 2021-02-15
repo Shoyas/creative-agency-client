@@ -5,7 +5,7 @@ const Feedback = () => {
     const [client, setClient] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/getAllClientReview')
+        fetch('https://intense-badlands-48385.herokuapp.com/getAllClientReview')
         .then(res => res.json())
         .then(data => setClient(data))
     }, [])

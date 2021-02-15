@@ -9,7 +9,7 @@ const ServiceList = () => {
     const [orderItem, setOrderItem] = useState([]);
     console.log(orderItem);
     useEffect(() => {
-        fetch('http://localhost:5000/getClientOrder?email='+loggedInUser.email)
+        fetch('https://intense-badlands-48385.herokuapp.com/getClientOrder?email='+loggedInUser.email)
         .then(res => res.json())
         .then(data => setOrderItem(data));
     }, [])

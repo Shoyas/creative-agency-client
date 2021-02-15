@@ -9,7 +9,7 @@ const MakeAdmin = () => {
 
     const onSubmit = admin => {
         admin.createDate = new Date();
-        fetch('http://localhost:5000/addAdmin', {
+        fetch('https://intense-badlands-48385.herokuapp.com/addAdmin', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(admin)

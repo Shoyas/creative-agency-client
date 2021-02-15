@@ -8,7 +8,7 @@ const AllServicesList = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     const [allServicesListItem, setAllServicesListItem] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/getAllClientsOrder')
+        fetch('https://intense-badlands-48385.herokuapp.com/getAllClientsOrder')
         .then(res => res.json())
         .then(data => setAllServicesListItem(data))
     }, [])
