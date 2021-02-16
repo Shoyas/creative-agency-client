@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "build/creative-agency-client-924ea",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",

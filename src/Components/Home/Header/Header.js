@@ -16,7 +16,7 @@ const Header = () => {
                 <div className="col-md-5 offset-1 text-area">
                     <animated.h1 style={props}>
                         <h2>Let's Grow Your <br/> Brand To The <br/> Next Level</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur <br/> adipisicing elit. Distinctio recusandae ipsam dolorem facilis, <br/> autem tenetur. Ad fugit repellat vel at.</p>
+                        <p>It's a creative brand communication agency <br/> with a mission for creative innovation and excellence, <br/> dedicated to helping business houses to enhance its <br/>enterprise value by building their brands. </p>
                         <button type="button" className="btn btn-dark login-btn">Hire us</button>
                     </animated.h1>
                 </div>
